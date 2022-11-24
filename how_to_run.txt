@@ -1,0 +1,9 @@
+Run the commands in the following order, in separate bash windows:
+
+sudo service redis-server start
+./local_run.sh
+./local_beat.sh
+./local_workers.sh
+
+cd ~/go/bin
+./MailHog
